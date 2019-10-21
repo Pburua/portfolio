@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 1" width="1300" height="1">
+	<defs>
+		<image width="1300" height="1" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABRQAAAABAQMAAACVC7AkAAAAAXNSR0IB2cksfwAAAANQTFRF9cAHQevODAAAAAxJREFUeJxjYBj8AAAApAABeLLzWAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer 25 copy" href="#img1" x="0" y="0" />
+</svg>

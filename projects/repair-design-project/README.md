@@ -1,0 +1,1 @@
+To compile scss files I use Webstorm File Watcher. It can be found in File>Settings>Tools>File Watchers/

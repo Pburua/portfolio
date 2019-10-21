@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="src/css/all.min.css">
+  <link rel="stylesheet" href="src/css/swiper.min.css">
+  <link rel="stylesheet" href="src/css/portfolioStyle.css">
+</head>
+<body>
+<main>
+  <article>
+
+    <section class="contacts">
+
+      <div class="contacts__portrait">
+        <img class="" src="assets/foto.jpg" width="144" height="200">
+      </div>
+
+      <div class="contacts__text">
+        <div class="contacts__name-surname">
+          <h1>Pavel Burya</h1>
+        </div>
+        <div class="contacts__github">
+          <a href="https://github.com/Pburua">Github</a>
+        </div>
+        <div class="contacts__social-networks">
+          <a href="https://vk.com/pburya">Vk</a>
+          <pre>/</pre>
+          <a href="mailto:pburya@gmail.com">Email</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="education">
+
+      <div class="expansion-panel">
+
+        <div class="expansion-panel__button">
+          <div class="expansion-panel__name">
+            <h2>Education</h2>
+          </div>
+          <div class="expansion-panel__arrows">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-up hide"></i>
+          </div>
+        </div>
+
+        <div class="expansion-panel__content hide">
+          <ul class="expansion-panel_list">
+            <li class="expansion-panel_list-item">
+              School <br> 2006-2017
+            </li>
+            <li class="expansion-panel_list-item">
+              University <br> 2017-2021
+            </li>
+            <li class="expansion-panel_list-item">
+              RSSchool Courses <br> 2019-????
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="projects">
+
+      <h2 class="projects__headtext">Projects</h2>
+
+      <div class="swiper-container">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+
+            <div class="projects__slider-space">
+
+              <div class="projects__slider-content">
+
+                <div class="projects__mobile-button-descr" onclick="descriptionButtonsHandler(this)">show description</div>
+
+                <img class="projects__slider-image" onclick="toTheyalowWrapperPage()"
+                     src="assets/theyalow.png" alt="theyalow">
+
+                <div class="projects__slider-text mobile-hide">
+                  <h3>Theyalow</h3>
+                  <ul>
+                    <li>pixel-perfect layout</li>
+                    <li>pure css stylization</li>
+                    <li>online photo editors usage</li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="projects__slider-space">
+
+              <div class="projects__slider-content">
+
+                <div class="projects__mobile-button-descr" onclick="descriptionButtonsHandler(this)">show description</div>
+
+                <img class="projects__slider-image" onclick="toRepairDesignWrapperPage()"
+                     src="assets/repair-design.png" alt="repair design">
+
+                <div class="projects__slider-text mobile-hide">
+                  <h3>Repair Design</h3>
+                  <ul>
+                    <li>responsive web design</li>
+                    <li>sass stylization</li>
+                    <li>interface design tools usage</li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+    </section>
+
+  </article>
+</main>
+<script src="src/js/swiper.min.js"></script>
+<script src="src/js/portfolioScript.js"></script>
+</body>
+</html>

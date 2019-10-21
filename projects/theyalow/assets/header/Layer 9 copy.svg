@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 40" width="1" height="40">
+	<defs>
+		<image width="1" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAoAQMAAAAFeAI0AAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAAAAApWe5zwAAAAJ0Uk5T8v99G6GKAAAAD0lEQVR4nGNgYGigImQAAPhuEwEG/U9TAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="bnner+header">
+		<g id="main_nav">
+			<use id="Layer 9 copy" style="opacity: 0.102" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
