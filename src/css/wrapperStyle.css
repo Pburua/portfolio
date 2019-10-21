@@ -1,0 +1,49 @@
+
+::-webkit-scrollbar {
+  display: none
+}
+
+body {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  background: #c0dbff;
+  overflow:hidden;
+}
+
+iframe {
+  overflow: auto;
+}
+
+iframe.mobilized {
+  width: 375px;
+  margin: auto;
+}
+
+.btn-switch-view,
+.btn-back {
+  display: none;
+}
+
+@media screen and (min-width: 780px){
+  .btn-switch-view,
+  .btn-back {
+    display: block;
+    position: fixed;
+    width: 50px;
+    height: 20px;
+    right: 20px;
+    text-align: center;
+    border-radius: 25%;
+    background: #5f8ae1;
+    cursor: pointer;
+  }
+
+  .btn-switch-view {
+    bottom: 40px;
+  }
+
+  .btn-back {
+    bottom: 10px;
+  }
+}
